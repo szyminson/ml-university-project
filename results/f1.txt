@@ -1,0 +1,50 @@
+
+Methods:
+['none', 'ros', 'smote', 'bsmote', 'adasyn']
+Mean ranks:
+[2.9 2.6 3.6 3.1 2.8]
+
+w-statistic:
+          none    ros    smote    bsmote    adasyn
+------  ------  -----  -------  --------  --------
+none      0.00   0.34    -0.87     -0.30      0.08
+ros      -0.34   0.00    -1.47     -0.87     -0.34
+smote     0.87   1.47     0.00      0.94      1.25
+bsmote    0.30   0.87    -0.94      0.00      0.53
+adasyn   -0.08   0.34    -1.25     -0.53      0.00
+
+p-value:
+          none    ros    smote    bsmote    adasyn
+------  ------  -----  -------  --------  --------
+none      1.00   0.73     0.38      0.76      0.94
+ros       0.73   1.00     0.14      0.38      0.73
+smote     0.38   0.14     1.00      0.34      0.21
+bsmote    0.76   0.38     0.34      1.00      0.60
+adasyn    0.94   0.73     0.21      0.60      1.00
+
+Advantage:
+          none    ros    smote    bsmote    adasyn
+------  ------  -----  -------  --------  --------
+none         0      1        0         0         1
+ros          0      0        0         0         0
+smote        1      1        0         1         1
+bsmote       1      1        0         0         1
+adasyn       0      1        0         0         0
+
+Statistical significance (alpha = 0.05):
+          none    ros    smote    bsmote    adasyn
+------  ------  -----  -------  --------  --------
+none         0      0        0         0         0
+ros          0      0        0         0         0
+smote        0      0        0         0         0
+bsmote       0      0        0         0         0
+adasyn       0      0        0         0         0
+
+Statistically significantly better:
+          none    ros    smote    bsmote    adasyn
+------  ------  -----  -------  --------  --------
+none         0      0        0         0         0
+ros          0      0        0         0         0
+smote        0      0        0         0         0
+bsmote       0      0        0         0         0
+adasyn       0      0        0         0         0
