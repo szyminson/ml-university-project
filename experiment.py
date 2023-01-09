@@ -61,6 +61,7 @@ metrics = {
     'accuracy': accuracy_score,
 }
 
+
 def main():
     rskf = RepeatedStratifiedKFold(
         n_splits=n_splits, n_repeats=n_repeats, random_state=42)
@@ -97,9 +98,9 @@ def main():
 
     np.save('results/results', metric_scores)
 
+
 if __name__ == '__main__':
     try:
         main()
     except KeyboardInterrupt:
         exit()
-
