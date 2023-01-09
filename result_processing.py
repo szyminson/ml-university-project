@@ -137,7 +137,7 @@ def statistic_analysis(scores, metric_index):
 
 
 def analyze_all_metrics(scores):
-    """Perform static analysis for all available metrics"""
+    """Perform statistic analysis for all available metrics"""
     metric_keys, _ = get_metric_method_keys()
     for index, _ in enumerate(metric_keys):
         statistic_analysis(scores, index)
