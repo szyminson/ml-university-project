@@ -16,26 +16,26 @@ n_splits = 5
 n_repeats = 2
 
 datasets = [
-    # 'abalone-19_vs_10-11-12-13',
+    'ecoli-0_vs_1',
     'ecoli-0-1-4-6_vs_5',
     'ecoli-0-3-4_vs_5',
-    'ecoli-0_vs_1',
     'ecoli4',
-    # 'glass-0-1-5_vs_2',
-    # 'glass0',
-    # 'glass1',
-    # 'haberman',
-    # 'iris0',
+    'glass-0-1-5_vs_2',
+    'glass0',
+    'glass1',
+    'haberman',
     'pima',
-    # 'poker-9_vs_7',
-    # 'vehicle1',
+    'poker-9_vs_7',
+    'vehicle1',
     'vehicle2',
     'vowel0',
-    # 'winequality-red-4',
-    # 'winequality-white-3_vs_7',
+    'winequality-red-4',
+    'winequality-white-3_vs_7',
+    'winequality-white-3-9_vs_5',
     'wisconsin',
-    'yeast1',
     'yeast-2_vs_4',
+    'yeast1',
+    'yeast3',
 ]
 
 clfs = {
@@ -58,7 +58,7 @@ metrics = {
     'f1': f1_score,
     'g-mean': geometric_mean_score_1,
     'bac': balanced_accuracy_score,
-    'accuracy': accuracy_score,
+    #'accuracy': accuracy_score,
 }
 
 
